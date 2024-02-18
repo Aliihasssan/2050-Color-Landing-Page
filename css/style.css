@@ -1,6 +1,14 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+.nav-brand{
+ font-size: 50px;
+ font-weight: 900;
+}
+.nav-text{
+    font-size: 18px;
+    
+}
 
 .navbar{
     font-weight: 700;
@@ -8,15 +16,16 @@ body{
 }
 
 .mynavbar{
-    background-color: #4741af;
+    background-color:#4741af ;
     color: white;
+
 }
 .navbar-brand, .nav-link{
     color: white;
 }
 .images{
-    height: 467px;
-    width: 521px;
+    height: 530px;
+    width: 510px;
 }
 
 .banner-heading{
@@ -38,7 +47,7 @@ body{
 }
 
 .banner-btn:hover{
-    color:#4741af ;
+    color:#4741af;
     background-color: white;
 }
 .banner-text{
@@ -47,20 +56,66 @@ body{
 .text-subtitle{
   color: #6c63ff;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 27px;
 }
 .text-title{
     font-weight: 700;
-    font-size:35px;
+    font-size:48px;
 }
 .text-link{
     font-weight: 700;
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid #6c63ff;
-    
+    border-bottom: 2px solid #6c63ff;   
 }
+
 .text-p{
     font-weight: 400;
-    font-size:17px;
+    font-size:18px;
+}
+.about-img{
+    margin-left: -404px;
+}
+.service-img-background{
+    background-color: rgb(243, 249, 251);
+    border-radius: 50%;
+}
+.service-img-background img{
+    margin-top:-100px;
+    margin-left:46px;
+}
+.service-icon{
+    background-color: #6c63ff;
+    color: white;
+    padding: 13px;
+    border-radius: 50%;
+    width: 53px;
+    display: block;
+    height: 53px;
+    text-align: center;
+        transition: all 0.8s ease;
+    
+}
+.service-title{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.service-card:hover span {
+    transform: translateX(50px);
+}
+
+/* why choose us section */
+.full-section{
+    background-color:rgb(243, 249, 251) ;
+}
+/* products */
+.text-product-link{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+     
+}
+.product-cards{
+    border-bottom: 4px solid #6c63ff ;
 }
